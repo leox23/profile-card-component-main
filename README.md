@@ -51,7 +51,7 @@ I had problems to fully stretch the background of the user image, for no method 
 
 In the HTML you can use a special "invisible" character in order to add more separation space to a word specifically, instead of using the CSS letter-spacing as in the example of the image:
 ```html
-	  ↓
+      ↓
 <span>⠀26</span>
 ```
 ![1](./images/chrome_xULZ4Cm5cB.png) 
