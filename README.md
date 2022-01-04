@@ -57,7 +57,7 @@ In the HTML you can use a special "invisible" character in order to add more sep
 	  ↓
 <span>⠀26</span>
 ```
-![1](.\images\chrome_xULZ4Cm5cB.png)
+![1](./images/chrome_xULZ4Cm5cB.png) 
 
 In CSS for properties with several blocks of values ​​that are separated by comma, you can place one below one for better readability:
 ```css
