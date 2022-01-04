@@ -1,0 +1,160 @@
+@font-face {
+    font-family: "KumbhSans-Regular";
+    src:url(/fonts/KumbhSans-Regular.ttf);
+    
+}
+
+body {
+    margin: 0px;
+    padding:0px;
+}
+
+p {
+    font-family: "KumbhSans-Regular";
+}
+
+body{
+    display: grid;
+    height: 100vh;
+    place-content: center center;
+    background: url(images/bg-pattern-top.svg) -740px -640px no-repeat,
+                url(images/bg-pattern-bottom.svg) 118px 270px no-repeat,
+                #19A1AD;
+}
+
+.container{
+    place-self: center;
+    border-radius: 15px;
+    width:326px;
+    height: 322px;
+    background-color: white;
+    box-shadow: 0px 111px 400px -61px rgba(0,0,0,0.63);
+    -webkit-box-shadow: 0px 111px 400px -61px rgba(0,0,0,0.63);
+    -moz-box-shadow: 0px 111px 400px -61px rgba(0,0,0,0.63);
+}
+.child-container {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-user {
+    width:100%;
+    height: 140px ;
+    border-radius: 15px 15px 0px 0px;
+}
+.user { 
+    position: relative;
+    bottom: 21.5%;  
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+}
+
+
+#perfil  { 
+    align-self: center;
+    width: 29.4%;
+    border-radius: 100px;
+    border:5px solid white;
+}
+
+#name {
+    position:relative;
+    text-align: center;
+    width: 100%;
+    font-weight:900;
+}
+
+#country {
+    position:relative;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    bottom:24px;
+}
+
+#country, .naming, span ~ span {
+    color: gray;
+    font-weight: 400;
+}
+
+#name, .counters {
+    font-size: 18px;
+}
+
+.socont {
+    position: relative;
+    bottom:19px;
+}
+
+.social { 
+    border-top:1px solid #E8E8E8;
+    padding: 18px 26px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-content: start center;
+}
+
+.counters, .naming {
+    text-align: center;
+    height: 10px;
+    margin: 10px;
+}
+
+.naming {
+    margin-top: 5px;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+}
+
+
+@media screen and (min-width: 800px) {
+body {  
+    
+    background: url(images/bg-pattern-top.svg) -322px -524px no-repeat,
+                url(images/bg-pattern-bottom.svg)  656px 343px no-repeat,
+                #19A1AD;
+}
+
+.container{
+    width:350px;
+    height: 373px;
+}
+
+
+.child-container {
+    height: 287px;
+    display: flex;
+}
+
+.user {
+    bottom: 52.5px;
+}
+
+.background-user {
+    margin-top: 66px;
+}
+
+#perfil {
+    width: 27.3%;
+}
+
+#country {
+    position: relative;
+    top: -24px;
+}
+
+.socont {
+    bottom: 2px;
+}
+
+.social {
+    padding: 17px 26px;
+}
+
+} /*end media query */
