@@ -14,9 +14,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -30,8 +27,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github repositorie](https://github.com/leox23/profile_card_component)
+- Live Site URL: [Live site](https://leox23.github.io/profile_card_component/)
 
 ## My process
 
@@ -89,7 +86,7 @@ Using the CSS BEM methodology, we have to be careful with the name of the classe
 
 ### Continued development
 
-Specifically, my future goal for the kind of skills in this challenge, is to be able to use Flexbox and Css Grid in larger and more complex page layouts, and to be faster at debugging CSS in general, **just because it's not a programming language, doesn't mean it's not complex.**
+Specifically, my future goal for the kind of skills in this challenge, is to be able to use Flex-box and CSS Grid in larger and more complex page layouts, and to be faster at debugging CSS in general, **just because it's not a programming language, doesn't mean it's not complex.**
 
 ### Useful resources
 
@@ -99,14 +96,7 @@ Specifically, my future goal for the kind of skills in this challenge, is to be 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Github - [leox23](https://github.com/leox23)
+- Frontend Mentor - [@leox23](https://www.frontendmentor.io/profile/leox23)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
